@@ -2,3 +2,14 @@ node_modules
 *.db
 api/local.js
 microservices/**/local.js
+api/package-lock\.json
+
+apps/blog/package-lock\.json
+
+apps/forum/package-lock\.json
+
+microservices/accounts/package-lock\.json
+
+microservices/comments/package-lock\.json
+
+microservices/posts/package-lock\.json

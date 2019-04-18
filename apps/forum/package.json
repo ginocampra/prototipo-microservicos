@@ -2,18 +2,21 @@
   "name": "forum",
   "version": "0.1.0",
   "scripts": {
-    "start": "cls && http-server -c-0 -p 3001",
-    "test": "cls && standard"
+    "start": "clear && http-server -c-0 -p 3001",
+    "test": "clear && standard"
   },
   "standard": {
     "globals": [
-      "angular", "app", "moment", "noty"
+      "angular",
+      "app",
+      "moment",
+      "noty"
     ]
   },
   "dependencies": {
-    "http-server": "^0.8.5"
+    "http-server": "^0.11.1"
   },
   "devDependencies": {
-    "standard": "^5.3.1"
+    "standard": "^12.0.1"
   }
 }

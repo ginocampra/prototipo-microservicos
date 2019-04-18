@@ -1,7 +1,8 @@
 ## Requisitos
 
 * Possuir [Node.js](https://nodejs.org/en/) v4.0 ou superior instalado
-* Possuir uma conta no serviço [CloudAMQP](https://www.cloudamqp.com)
+* Possuir uma conta no serviço [CloudAMQP](https://www.cloudamqp.com) ou
+  Instalar https://cloud.docker.com/u/gcampra/repository/docker/gcampra/rabbitmq-thanos
 
 ## Como instalar
 
@@ -23,6 +24,10 @@
   * `microservices/accounts/config.js`
   * `microservices/comments/config.js`
   * `microservices/posts/config.js`
+
+  ou 
+
+  deixe comentado como está para usar a imagem Docker.
 
 Instalação concluída!
 
@@ -53,4 +58,8 @@ Experimente fechar o processo de algum serviço para simular um serviço que nã
 
 ## Como monitorar
 
-A partir da página de detalhes de sua instância no **CloudAMQP** clique no link `RabbitMQ management interface` para abrir o painel de monitoramento.
+A partir da página de detalhes de sua instância no **CloudAMQP** clique no link `RabbitMQ management interface` para abrir o painel de monitoramento. 
+
+ou 
+
+Abrir http://localhost:15672 se usar a Imagem Docker.
